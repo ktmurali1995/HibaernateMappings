@@ -19,6 +19,7 @@ public class Account {
     @GeneratedValue(generator = "gen1")
     private Long accId;
 
+
     @Column
     private String accountType;
 
